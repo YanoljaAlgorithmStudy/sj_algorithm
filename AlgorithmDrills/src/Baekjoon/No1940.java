@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Test {
+public class No1940 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
@@ -15,11 +15,9 @@ public class Test {
 
         int[] A = new int[material];
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        // String[] input = bf.readLine().split(" ");
 
         for (int i = 0; i < material; i++) {
             A[i] = Integer.parseInt(st.nextToken()); // 재료들을 배열로 저장
-            // A[i] = Integer.parseInt(input[i]);
         }
 
         Arrays.sort(A); // 재료배열 저장
