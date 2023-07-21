@@ -11,7 +11,7 @@ public class No1940 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         int material = Integer.parseInt(bf.readLine()); // 재료의 수
-        int armour = Integer.parseInt(bf.readLine()); // 갑옷이 완성되는 번호의 합
+        int armour = Integer.parseInt(bf.readLine()); // 갑옷이 완성되는 번호
 
         int[] A = new int[material];
         StringTokenizer st = new StringTokenizer(bf.readLine());
